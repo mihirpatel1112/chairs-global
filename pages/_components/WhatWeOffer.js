@@ -13,14 +13,14 @@ export default function WhatWeOffer() {
       >
         <Margin>
           <motion.div
-            className="flex text-white py-44"
+            className="sm:flex text-center text-white py-44"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <motion.div
-              className="font-lora text-5xl w-[40%]"
+              className="font-lora text-4xl sm:text-left sm:text-5xl sm:w-[40%]"
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -29,13 +29,13 @@ export default function WhatWeOffer() {
               What we offer
             </motion.div>
             <motion.div
-              className="w-[60%]"
+              className="sm:w-[60%] sm:py-0 py-10"
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
             >
-              <p className="text-2xl font-mont text-wrap leading-12">
+              <p className="text-lg sm:text-2xl sm:text-left font-mont text-wrap leading-12">
                 A dedicated community for board leaders to connect, learn, and
                 access expert insights. Chairs Global is designed exclusively
                 for corporate, institutional, and social impact chairs,
