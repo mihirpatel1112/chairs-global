@@ -7,6 +7,7 @@
     --color-tertiary: #F1EFE8;
     --font-lora: "Lora", sans-serif; 
     --font-mont: "Montserrat", sans-serif; 
-  }
-
+    --breakpoint-tablet: 768px;
+    --breakpoint-lg: 1366px;
+}
 

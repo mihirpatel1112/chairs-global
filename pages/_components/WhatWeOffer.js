@@ -13,7 +13,7 @@ export default function WhatWeOffer() {
       >
         <Margin>
           <motion.div
-            className="sm:flex text-center text-white py-44"
+            className="sm:flex text-center text-white py-44 gap-x-8"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

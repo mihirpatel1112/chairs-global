@@ -18,8 +18,9 @@ export default function Card(props) {
       initial={{ opacity: 0, y: 30 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
+      className="pb-16 sm:pb-0"
     >
-      <div className="sm:w-[440px] sm:h-[280px] h-[140px] w-[220px] verflow-hidden">
+      <div className="tablet:w[220px] tablet:h-[140px] lg:w-[440px] lg:h-[280px] h-[140px] w-[220px]">
         <Image
           src={imageURL}
           alt={imageAlt}
