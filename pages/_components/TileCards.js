@@ -27,7 +27,7 @@ export default function TileCards() {
   return (
     <div className="bg-tertiary">
     <Margin>
-      <div className="flex justify-between py-36 gap-x-14 overflow-auto">
+      <div className="flex justify-between py-36 gap-x-14 overflow-auto sm:overflow-hidden snap-x snap-mandatory">
         {cardData.map((card, index) => {
           return (
             <Card
